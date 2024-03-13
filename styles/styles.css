@@ -1,57 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="styles/styles.css">
-	<title>Barisitom Akpee / WDD 130</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="https://linkedin.com">LinkedIn</a>
-            <a href="https://www.facebook.com/barisitom.akpee">facebook</a>
-        </nav>
-    </header>
-    <main>
-	        <h1>Barisitom Akpee / WDD 130</h1>
-	        <img src="images/barpic.jpeg" alt="image of Barisitom Akpee" width="200">
-	        <p>My name is Barisitom Akpee, i'm from Nigeria located in west Africa continent i enjoy reading, playing the piano and learn new things
-                I'm currently BYU Idaho Online Student, studying computer and web development Hoping to be software Engineer. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Veniam ipsa quo illum hic, minima expedita qui odit voluptates quos deserunt sit laboriosam blanditiis!
-                Ut voluptatem eius voluptas vel ipsam eum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, eius impedit quo porro ab
-                minima dolorem alias consequatur fugit aperiam velit asperiores culpa earum eligendi reiciendis in soluta sunt dolor. Lorem ipsum, dolor
-                sit amet consectetur adipisicing elit. Corporis, vero! Magnam dicta suscipit nulla dolor, dolore at architecto? Beatae saepe maxime 
-                repellendus ipsum? Vel nemo numquam commodi officia nobis itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quas
-                accusamus sequi nesciunt consectetur natus non eveniet, delectus eligendi voluptatibus quaerat iure quos. Ipsa, fuga modi! Accusamus 
-                natus nulla ut? cheers.</p>
-	<aside class="box">
-		<h2>Rivers</h2>
-        	<img src="images/rivers.jpg" alt="Rivers landscape" width="200">
-        	<p>Rivers State, situated in the Niger Delta region of southern Nigeria, 
-		is a pivotal area known for its significant oil and gas industry contributions.
-		With Port Harcourt as its capital, the state is a hub for commerce and industry. 
-		Home to over 7 million people, it features a diverse ethnic composition, including 
-		Ikwerre, Ogoni, and Etche communities, each with unique cultural identities. 
-		Rivers State's economy thrives primarily on the petroleum sector, but agriculture and 
-		services also play crucial roles. The state boasts several educational institutions, such as
-		the University of Port Harcourt, enhancing its educational profile. Tourist attractions include 
-		the Port Harcourt Tourist Beach and Bonny Island, drawing visitors with their natural and cultural sites.
-		Despite its economic significance, Rivers State faces challenges like environmental pollution and infrastructural needs.
-		Nonetheless, its cultural richness and economic vitality make it a key player in Nigeria's socio-economic landscape.</p>
-	</aside>
-    <ul class="box" >
-        <li><a href="https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng" target="_blank">Aba Nigeria Temple</a></li>
-        <li><a href="https://www.churchofjesuschrist.org/temples/details/abidjan-ivory-coast-temple?lang=eng" target="_blank">TAbidjan Ivory Coast Temple</a></li>
-        <li><a href="https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple?lang=eng" target="_blank">Accra Ghana Temple</a></li>
-      </ul>
-      
-    </main>
-    <footer>
-        <p>&copy; 2024 🌹Barisitom Akpee 🌹 Rivers, Nigeria</p>
-    </footer>
-</body>
-<!-- Page last modified on: 2024-03-13 -->
 
-</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+nav {
+  background-color: steelblue;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  display: block;
+  padding: 20px;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
+h1 {
+  color: steelblue;
+}
+
+p {
+  padding: 10px;
+}
+
+
+main {
+  max-width: 840px;
+}
+
+aside {
+  width: 20rem;
+  text-align: center;
+  position: relative;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+
+
+main img {
+  width: 150px;
+  height: auto;
+  float: right;
+
+}
+
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
+
+aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
+}
