@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Your+Selected+Font');
+
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --primary-color: #1e8ad6;
+    --secondary-color: #e44919;
+    --text-color: #333;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+}
+
+p {
+  color: var(--text-color);
+}
+
+/* Remove underlines from social media links */
+.social-media-link {
+  text-decoration: none;
+}
+
+/* Limit the width of the page */
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+  }
+
+  /* Styling the Hero Container */
+.hero {
+    position: relative;
+  }
+  
+
+  .hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 64, 128, 0.7);
+    
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .hero article {
+    position: absolute;
+    bottom: 5%;
+    left: 75%;
+    padding: 20px;
+    background-color: rgba(0, 64, 128, 0.7); 
+    
+  }
+  
+  .hero article p {
+    float: right;
+    color: white;
+  }
