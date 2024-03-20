@@ -1,69 +1,96 @@
-
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body{
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+}
+/* Refactor CSS for header, footer to have maximum width and center content */
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
 
+/* Make navigation links display horizontally using Flexbox */
 nav {
   background-color: steelblue;
-  padding: 10px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 nav a {
-  color: white;
   display: block;
-  padding: 20px;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff; 
 }
 
-img {
-  width: 150px;
-  height: auto;
-  border: 1px solid steelblue;
-  padding: 2px;
-  box-shadow: 0 0 30px gray;
-}
+/* Add bottom border to the heading h1 element */
 h1 {
-  color: steelblue;
+    color: steelblue;
+    border-bottom: 1px solid steelblue; /* Change color as needed */
+    padding: 1.5rem;
 }
 
 p {
   padding: 10px;
 }
 
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+ul{
+    background-color: rgb(233, 241, 247);
+    padding: 10px;
+    margin-top: 1.5rem;
+}
+/* CSS Grid for header, .grid, footer */
+
+
+.grid {
+  display: grid;
+  align-items: center;
+}
 
 main {
-  max-width: 840px;
-}
+  grid-column: 2;
+  margin: 1rem;
+ 
+ }
+
+ main img {
+  width: 150px;
+  height: auto;
+  float: right;
+ }
+
 
 aside {
   width: 20rem;
-  text-align: center;
   position: relative;
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgb(233, 241, 247);
+  padding:1rem ;
+  margin: 1rem;
 }
-
 aside img {
   width: 200px;
   height: auto;
 }
 
-
-
-main img {
-  width: 150px;
-  height: auto;
-  float: right;
-
-}
-
-footer {
-  margin-top: 15px;
-  border-top: 1px solid #000;
-  text-align: center;
-}
-
-/* Class Selectors */
 .box {
   margin: 1rem;
   border: 1px solid rgba(0,0,0,.1);
@@ -71,9 +98,15 @@ footer {
   background-color: #ddd;
   color: #000;
 }
-
 aside h2 {
   position: absolute;
-  top: 47px;
-  left: 150px;
+  top: 55px;
+  left: 70px;
+ 
+}
+
+footer {
+  margin-top: 15px;
+  border-top: 1px solid steelblue;
+  text-align: center;
 }
