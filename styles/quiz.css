@@ -1,0 +1,72 @@
+/* quiz.css */
+
+body {
+    font-family: sans-serif,  Arial;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color:#eef2f7 ;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+textarea{
+    height: 100px;
+}
+input[type="number"] {
+    width: 100px; /* Adjust width as needed */
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+span {
+    color:#007bff ;
+    font-weight: bold;
+}
+fieldset{
+
+    padding: 30px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
