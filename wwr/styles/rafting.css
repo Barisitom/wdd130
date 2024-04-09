@@ -164,9 +164,6 @@ th {
 }
 
 
-.hero {
-    background-color: steelblue;
-}
 .hero >img{
     width: 100%;
     position: relative;
@@ -193,7 +190,7 @@ th {
     Margin-right: 20px;
     Text-decoration: none;
     Color: white;
-    background-color: steelblue;
+    background-color: black;
     padding: 10px 20px;
     border-color: black;
     border-radius: 10px;
