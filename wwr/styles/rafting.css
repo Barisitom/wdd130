@@ -37,7 +37,7 @@ Nav a {
     Margin-right: 20px;
     Text-decoration: none;
     Color: white;
-    background-color: #007bff;
+    background-color: steelblue;
     padding: 10px 20px;
     border-color: black;
     border-radius: 10px;
@@ -126,7 +126,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: steelblue;
 }
 
 /*Trip.html CSS Design*/
