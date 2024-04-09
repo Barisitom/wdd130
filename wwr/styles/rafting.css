@@ -115,7 +115,7 @@ input[type="checkbox"] {
 }
 
 button[type="submit"] {
-    background-color: #007bff;
+    background-color: steelblue;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -163,7 +163,7 @@ th {
 
 
 .hero {
-    background-color: #0056b3;
+    background-color: steelblue;
 }
 .hero >img{
     width: 100%;
@@ -191,7 +191,7 @@ th {
     Margin-right: 20px;
     Text-decoration: none;
     Color: white;
-    background-color: #007bff;
+    background-color: steelblue;
     padding: 10px 20px;
     border-color: black;
     border-radius: 10px;
