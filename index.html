@@ -3,41 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barisitom Akpee / WDD 130</title>
-    <meta name="description" content="The website will serve as a personal platform to share rafting adventures, tips, gear reviews, and possibly offer guided tours.">
-    <meta name="author" content="Barisitom Akpee">
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>White Water Rafting Co. - Home</title>
+    <meta name="description" content="Welcome to White Water Rafting Co. Explore our thrilling rafting adventures and sign up for our newsletter.">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
     <header>
+        <img src="images/logo.jpg" alt="White Water Rafting Logo">
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Rafting Website</a>
-            <a href="#">Siteplan</a>
-            <a href="https://linkedin.com">LinkedIn</a>
-            <a href="https://www.facebook.com/barisitom.akpee">Facebook</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
-    <div class="grid">
-        <main>
-            <h1>Barisitom Akpee / WDD 130</h1>
-            <img src="images/barpic.jpeg" alt="image of Barisitom Akpee" width="200">
-            <p>My name is Barisitom Akpee, I'm from Nigeria located in West Africa continent. I enjoy reading, playing the piano, and learning new things. I'm currently a BYU Idaho Online Student, studying computer and web development, hoping to be a software engineer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsa quo illum hic, minima expedita qui odit voluptates quos deserunt sit laboriosam blanditiis! Ut voluptatem eius voluptas vel ipsam eum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, eius impedit quo porro ab minima dolorem alias consequatur fugit aperiam velit asperiores culpa earum eligendi reiciendis in soluta sunt dolor. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, vero! Magnam dicta suscipit nulla dolor, dolore at architecto? Beatae saepe maxime repellendus ipsum? Vel nemo numquam commodi officia nobis itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quas accusamus sequi nesciunt consectetur natus non eveniet, delectus eligendi voluptatibus quaerat iure quos. Ipsa, fuga modi! Accusamus natus nulla ut? Cheers.</p>
-            <ul class="box">
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng" target="_blank">Aba Nigeria Temple</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/abidjan-ivory-coast-temple?lang=eng" target="_blank">Abidjan Ivory Coast Temple</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple?lang=eng" target="_blank">Accra Ghana Temple</a></li>
-            </ul>
-        </main>
-        <aside class="box">
-            <h2>RIVERS</h2>
-            <img src="images/rivers.jpg" alt="Rivers landscape" width="200">
-            <p>Rivers State, situated in the Niger Delta region of southern Nigeria, is a pivotal area known for its significant oil and gas industry contributions. With Port Harcourt as its capital, the state is a hub for commerce and industry. Home to over 7 million people, it features a diverse ethnic composition, including Ikwerre, Ogoni, and Etche communities, each with unique cultural identities. Rivers State's economy thrives primarily on the petroleum sector, but agriculture and services also play crucial roles. The state boasts several educational institutions, such as the University of Port Harcourt, enhancing its educational profile. Tourist attractions include the Port Harcourt Tourist Beach and Bonny Island, drawing visitors with their natural and cultural sites. Despite its economic significance, Rivers State faces challenges like environmental pollution and infrastructural needs. Nonetheless, its cultural richness and economic vitality make it a key player in Nigeria's socio-economic landscape.</p>
-        </aside>
-    </div>
+
+    <section class="hero">
+        <img src="images/full.jpg" alt="Rafting Adventure">
+        <h1>Experience the Thrill of White Water Rafting!</h1>
+    </section>
+
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <section class="call-to-action">
+        <h2>Ready for Your Adventure?</h2>
+        <p>Explore our thrilling rafting trips and start your journey today!</p>
+        <a href="trips.html" class="btn">Visit Trips Page</a>
+    </section>
+
+    <section class="grid-layout">
+        <!-- Grid layout content goes here -->
+        <div class="grid-item">
+            <img src="images/peru.jpeg" alt="Rafting Image 1">
+            <p>Rafting in Peru offers an exhilarating adventure through 
+                stunning landscapes, including deep canyons and lush 
+                rainforests. Navigating the roaring whitewater rapids of
+                 rivers like the Apurimac and Urubamba provides an adrenaline 
+                 rush while surrounded by breathtaking scenery and diverse  
+                wildlife. Experienced guides ensure safety and enhance the 
+                experience with insights into the region's history and culture.</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/picc.png" alt="Rafting Image 2">
+            <p>Experience the thrill of rafting on Niger's scenic river,
+                where rushing rapids and stunning landscapes await. 
+                Navigate through exhilarating whitewater stretches while
+                taking in the beauty of the surrounding West African 
+                scenery. Immerse yourself in the rich culture and history
+                 of the region as you paddle along, guided by experienced professionals who ensure both safety and an unforgettable adventure.</p>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2024 🌹Barisitom Akpee 🌹 Rivers, Nigeria</p>
+        <nav class="footer">        <!-- Footer content goes here -->
+        <p>&copy; 2024 White Water Rafting Co. | Created by Barisitom Akpee</p>
+        <p>&copy; 2024 White Water Rafting Co. | Created by Barisitom Akpee</p>
+        <a href="#" class="social-media-link"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="#" class="social-media-link"><img src="images/twitter.png" alt="Twitter"></a>
+        <a href="#" class="social-media-link"><img src="images/instagram.png" alt="Instagram"></a>
+
+        <a href="images/home.png" target="_blank">Home Page Wireframe</a>
+        </nav>
     </footer>
 </body>
-<!-- Page last modified on: 2024-03-21 -->
 </html>
