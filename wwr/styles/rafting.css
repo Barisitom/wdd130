@@ -12,7 +12,8 @@ body {
     color: var(--text-color);
     margin: 0;
     padding: 0;
-    background: rgb(245, 247, 248);
+    background-color: rgba(255, 255, 255, 0.85);
+    background-blend-mode: lighten ;
 }
 Header {
     Display: grid;
@@ -34,10 +35,11 @@ Nav {
 }
 
 Nav a {
-    Margin-right: 20px;
-    Text-decoration: none;
-    Color: white;
-    background-color: steelblue;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: black;
     padding: 10px 20px;
     border-color: black;
     border-radius: 10px;
@@ -115,8 +117,8 @@ input[type="checkbox"] {
 }
 
 button[type="submit"] {
-    background-color: steelblue;
-    color: #fff;
+    background-color: black;
+    color: #ffff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -126,7 +128,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: steelblue;
+    background-color: black;
 }
 
 /*Trip.html CSS Design*/
